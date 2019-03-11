@@ -79,6 +79,7 @@
 <script>
 
   import routes from '../js/routes.js';
+  import localized from '../localized';
 
   export default {
     data() {
@@ -114,7 +115,8 @@
     },
     mounted() {
       this.$f7ready((f7) => {
-
+        this.$root.language = localized.init('en');
+        console.log('[$f7ready]:language=' + 'en');
         // Call F7 APIs here
       });
     }

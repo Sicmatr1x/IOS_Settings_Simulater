@@ -9,7 +9,7 @@
       <!--<f7-nav-right>-->
         <!--<f7-link icon-ios="f7:menu" icon-md="material:menu" panel-open="right"></f7-link>-->
       <!--</f7-nav-right>-->
-      <f7-nav-title-large sliding>Settings</f7-nav-title-large>
+      <f7-nav-title-large sliding>{{$root.language.settings_page.settings_title}}</f7-nav-title-large>
     </f7-navbar>
     <!-- Toolbar-->
     <!--<f7-toolbar bottom>-->

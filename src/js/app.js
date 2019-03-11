@@ -29,4 +29,9 @@ new Vue({
   components: {
     app: App
   },
+  data: function (){
+    return {
+      language: {}
+    }
+  }
 });
