@@ -17,9 +17,23 @@
       <!--<f7-link>Right Link</f7-link>-->
     <!--</f7-toolbar>-->
     <!-- Page content-->
-    <f7-block strong>
-      <p>Here is your blank Framework7 app. Let's see what we have here.</p>
-    </f7-block>
+    <f7-list>
+      <f7-list-item link="/about/">
+        <f7-row width="100" no-gap style="width: 300px;">
+          <f7-col width="20">
+            <img src="../../assets-src/web-icon.png" style="height: 50px">
+          </f7-col>
+          <f7-col width="80">
+            <f7-row width="100">
+              <span style="font-weight:600; font-size: 20px;">{{$root.language.settings_page.icloud_name}}</span>
+            </f7-row>
+            <f7-row width="100">
+              <span style="font-weight:500; font-size: 10px;">{{$root.language.settings_page.icloud_hint}}</span>
+            </f7-row>
+          </f7-col>
+        </f7-row>
+      </f7-list-item>
+    </f7-list>
 
     <f7-block-title>Navigation</f7-block-title>
     <f7-list>
