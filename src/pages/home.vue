@@ -38,21 +38,23 @@
     <f7-list>
       <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.airplane_mode">
         <img slot="media" src="../../assets-src/web-icon.png" style="height: 15px">
+        <f7-toggle color="green"></f7-toggle>
       </f7-list-item>
-      <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.wifi">
-        <f7-icon slot="media" icon="settings"></f7-icon>
+      <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.wifi" link="/wifi/">
+        <img slot="media" src="../../assets-src/web-icon.png" style="height: 15px">
       </f7-list-item>
-      <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.Bluetooth">
-        <f7-icon slot="media" icon="settings_fill"></f7-icon>
+      <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.Bluetooth" link="/about/">
+        <img slot="media" src="../../assets-src/web-icon.png" style="height: 15px">
       </f7-list-item>
-      <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.Cellular">
-        <f7-icon slot="media" icon="icon-home"></f7-icon>
+      <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.Cellular" link="/about/">
+        <img slot="media" src="../../assets-src/web-icon.png" style="height: 15px">
       </f7-list-item>
-      <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.personal_hotspot">
-        <f7-icon slot="media" icon="settings"></f7-icon>
+      <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.personal_hotspot" link="/about/">
+        <img slot="media" src="../../assets-src/web-icon.png" style="height: 15px">
       </f7-list-item>
       <f7-list-item v-bind:title="this.$root.language.settings_page.basic_setting_block.vpn">
-        <f7-icon slot="media" icon="settings"></f7-icon>
+        <img slot="media" src="../../assets-src/web-icon.png" style="height: 15px">
+        <f7-toggle color="green"></f7-toggle>
       </f7-list-item>
     </f7-list>
 
