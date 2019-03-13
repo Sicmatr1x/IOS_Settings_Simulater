@@ -51,7 +51,9 @@ export default {
   wifi_page: {
     title: 'Wi-Fi',
     sub_title: 'Wi-Fi',
+    wifi_hint: 'New WiFi- network connections have been turned off from Control Center.',
     choose_a_network: 'CHOOSE A NETWORK...',
+    other: 'Other...',
     ask_to_join_network: 'Ask to Join Networks',
     hint: 'Known networks will be joined automatically. If no known networks are available, you will be asked before joining a new network.'
   }
